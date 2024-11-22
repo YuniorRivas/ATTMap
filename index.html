@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,20 +12,25 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <h1>U.S. Cities where AT&T Fiber <br> is Available, as of 2024</h1>
-    <div id="map"></div>
+    <div id="map" style="height: 750px; width: 90%;"></div>
+
+    <!-- External JavaScript -->
     <!-- Leaflet JS -->
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <!-- Leaflet Search Plugin JS -->
     <script src="https://unpkg.com/leaflet-search@3.0.7/dist/leaflet-search.min.js"></script>
+    <!-- Cities Data (if needed separately) -->
+    <script src="cities.js"></script>
     <!-- Custom JS -->
     <script src="script.js"></script>
-    <script src="cities.js"></script>
-
 </body>
+
 <footer>
     <span>Evelin's Interactive Map | Powered by OpenStreetMap & Leaflet.js</span>
-    <span>Your Name © 2024</span>
+    <span>Evelin Fajardo © 2024</span>
 </footer>
+
 </html>
